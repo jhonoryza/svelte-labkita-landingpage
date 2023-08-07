@@ -1,27 +1,37 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+<nav class="navbar navbar-expand-lg bg-light border-bottom">
     <div class="container-fluid">
-        <div
-            class="collapse navbar-collapse"
-            id="navbarSupportedContent"
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
         >
-            <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+            <span class="navbar-toggler-icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about">About</a>
+                    <a class="nav-link" aria-current="page" href="about"
+                        >About</a
+                    >
                 </li>
                 <li class="nav-item">
                     <a
                         class="nav-link"
                         target="__blank"
-                        href="https://tutorial.labkita.my.id"
-                        >Tutorial</a
+                        aria-current="page"
+                        href="https://tutorial.labkita.my.id">Tutorial</a
                     >
                 </li>
             </ul>
 
-            <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+            <!-- <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
                 <li class="nav-item">
                     <a
                         class="nav-link"
@@ -62,7 +72,7 @@
                         ><i class="fab fa-twitter fa-2x" /></a
                     >
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </nav>
