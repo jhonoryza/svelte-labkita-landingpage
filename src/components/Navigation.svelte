@@ -25,7 +25,7 @@
     </NavBrand>
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
-        <NavLi href="/" active={true}>Home</NavLi>
+        <NavLi href="/">Home</NavLi>
         <NavLi target="_blank" href="https://tutorial.labkita.my.id"
             >Tutorial</NavLi
         >

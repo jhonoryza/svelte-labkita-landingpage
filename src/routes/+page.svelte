@@ -40,11 +40,11 @@
         },
         {
             name: "Vuejs",
-            asset: "img/logos/node.png",
+            asset: "img/logos/vue.png",
         },
         {
             name: "Alpinejs",
-            asset: "img/logos/node.png",
+            asset: "img/logos/alpine.png",
         },
         {
             name: "Kotlin",
@@ -68,7 +68,7 @@
         },
         {
             name: "Linode",
-            asset: "img/logos/node.png",
+            asset: "img/logos/linode.png",
         },
     ];
 </script>
@@ -77,7 +77,7 @@
     <p class="mt-10 text-center text-slate-600 text-2xl">Stacks</p>
 
     {#each stacks as stack}
-        <div class="border-2 border-slate-400 inline-block shadow mr-2 p-2 rounded mb-2">
+        <div class="border-2 border-slate-400 inline-block shadow-md mr-2 p-2 rounded mb-2">
             <img src="{stack.asset}" alt="" class="max-h-20" />
             <h5
                 class="mb-2 text-xl font-bold tracking-tight text-slate-400 dark:text-white"

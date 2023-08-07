@@ -5,6 +5,7 @@
         FooterLinkGroup,
         FooterLink,
     } from "flowbite-svelte";
+    import "@flaticon/flaticon-uicons/css/all/all.css";
 </script>
 
 <Footer>
@@ -16,19 +17,19 @@
         <FooterLink href="/contact">Contact</FooterLink>
 
         <FooterLink href="https://github.com/jhonoryza"
-            ><i class="fab fa-github fa-x" />
+            ><i class="fi fi-brands-github" />
         </FooterLink>
         <FooterLink href="https://linkedin.com/in/fajar-sidik-priatna-8b31a788">
-            <i class="fab fa-linkedin fa-x" />
+            <i class="fi fi-brands-linkedin" />
         </FooterLink>
         <FooterLink href="https://facebook.com/jardikoryza">
-            <i class="fab fa-facebook fa-x" />
+            <i class="fi fi-brands-facebook" />
         </FooterLink>
         <FooterLink href="https://instagram.com/jardik1990">
-            <i class="fab fa-instagram fa-x" />
+            <i class="fi fi-brands-instagram" />
         </FooterLink>
         <FooterLink href="https://twitter.com/jardik7">
-            <i class="fab fa-twitter fa-x" />
+            <i class="fi fi-brands-twitter" />
         </FooterLink>
     </FooterLinkGroup>
 </Footer>

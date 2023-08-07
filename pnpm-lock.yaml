@@ -5,9 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@flaticon/flaticon-uicons':
+    specifier: ^2.3.0
+    version: 2.3.0
   '@floating-ui/dom':
     specifier: ^1.5.1
     version: 1.5.1
+  '@fontsource/quicksand':
+    specifier: ^5.0.8
+    version: 5.0.8
   flowbite:
     specifier: ^1.8.1
     version: 1.8.1
@@ -29,19 +35,16 @@ devDependencies:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.27)
   postcss:
-    specifier: ^8.4.24
+    specifier: ^8.4.27
     version: 8.4.27
-  postcss-load-config:
-    specifier: ^4.0.1
-    version: 4.0.1(postcss@8.4.27)
   svelte:
     specifier: ^4.0.5
     version: 4.1.2
   svelte-check:
     specifier: ^3.4.3
-    version: 3.4.6(postcss-load-config@4.0.1)(postcss@8.4.27)(svelte@4.1.2)
+    version: 3.4.6(postcss@8.4.27)(svelte@4.1.2)
   tailwindcss:
-    specifier: ^3.3.2
+    specifier: ^3.3.3
     version: 3.3.3
   typescript:
     specifier: ^5.0.0
@@ -262,6 +265,12 @@ packages:
     dev: true
     optional: true
 
+  /@flaticon/flaticon-uicons@2.3.0:
+    resolution: {integrity: sha512-+y2yJhMebrbMUxEvegLULS7ir0GFiKMhpm5Xq1hypqb6mHtpA0mLKkN63/kgI0+V0Dol5dGkRf1Tg+wHVluYfQ==}
+    optionalDependencies:
+      esbuild-linux-64: 0.14.54
+    dev: false
+
   /@floating-ui/core@1.4.1:
     resolution: {integrity: sha512-jk3WqquEJRlcyu7997NtR5PibI+y5bi+LS3hPmguVClypenMsCY3CBa3LAQnozRCtCrYWSEtAdiskpamuJRFOQ==}
     dependencies:
@@ -277,6 +286,10 @@ packages:
 
   /@floating-ui/utils@0.1.1:
     resolution: {integrity: sha512-m0G6wlnhm/AX0H12IOWtK8gASEMffnX08RtKkCgTdHb9JpHKGloI7icFfLg9ZmQeavcvR0PKmzxClyuFPSjKWw==}
+    dev: false
+
+  /@fontsource/quicksand@5.0.8:
+    resolution: {integrity: sha512-yckyBMWMerElcJq23yBZ8MOYLN3cJQFbb+bVQOhRrt68qRMDpselnF+/IYR078eHHmYOzNAfQaopFEeHaXrGyw==}
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -621,6 +634,15 @@ packages:
   /es6-promise@3.3.1:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
     dev: true
+
+  /esbuild-linux-64@0.14.54:
+    resolution: {integrity: sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /esbuild@0.18.18:
     resolution: {integrity: sha512-UckDPWvdVJLNT0npk5AMTpVwGRQhS76rWFLmHwEtgNvWlR9sgVV1eyc/oeBtM86q9s8ABBLMmm0CwNxhVemOiw==}
@@ -1219,7 +1241,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.4.6(postcss-load-config@4.0.1)(postcss@8.4.27)(svelte@4.1.2):
+  /svelte-check@3.4.6(postcss@8.4.27)(svelte@4.1.2):
     resolution: {integrity: sha512-OBlY8866Zh1zHQTkBMPS6psPi7o2umTUyj6JWm4SacnIHXpWFm658pG32m3dKvKFL49V4ntAkfFHKo4ztH07og==}
     hasBin: true
     peerDependencies:
@@ -1232,7 +1254,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.1.2
-      svelte-preprocess: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.27)(svelte@4.1.2)(typescript@5.1.6)
+      svelte-preprocess: 5.0.4(postcss@8.4.27)(svelte@4.1.2)(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - '@babel/core'
@@ -1255,7 +1277,7 @@ packages:
       svelte: 4.1.2
     dev: true
 
-  /svelte-preprocess@5.0.4(postcss-load-config@4.0.1)(postcss@8.4.27)(svelte@4.1.2)(typescript@5.1.6):
+  /svelte-preprocess@5.0.4(postcss@8.4.27)(svelte@4.1.2)(typescript@5.1.6):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -1297,7 +1319,6 @@ packages:
       detect-indent: 6.1.0
       magic-string: 0.27.0
       postcss: 8.4.27
-      postcss-load-config: 4.0.1(postcss@8.4.27)
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.1.2

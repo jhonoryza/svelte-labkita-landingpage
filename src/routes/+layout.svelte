@@ -1,11 +1,11 @@
 <script>
-  import "../app.postcss";
+  import "../app.css";
   import Footer from "../components/Footer.svelte";
   import Header from "../components/Header.svelte";
   import Navigation from "../components/Navigation.svelte";
 </script>
 
-<html lang="en">
+<html lang="en" class="font-quicksand">
   <Header />
 
   <body class="flex flex-col min-h-screen">
