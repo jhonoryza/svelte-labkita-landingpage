@@ -26,8 +26,11 @@
     <NavHamburger on:click={toggle} />
     <NavUl {hidden}>
         <NavLi href="/">Home</NavLi>
+        <NavLi target="_blank" href="https://blog.labkita.my.id"
+            >Laravel Blog</NavLi
+        >
         <NavLi target="_blank" href="https://tutorial.labkita.my.id"
-            >Tutorial</NavLi
+            >Svelte Blog</NavLi
         >
 
         <!-- contoh dropdown implementation -->
