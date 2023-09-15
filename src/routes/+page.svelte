@@ -1,6 +1,4 @@
 <script>
-    import { Card } from "flowbite-svelte";
-
     export let stacks = [
         {
             name: "Nodejs",

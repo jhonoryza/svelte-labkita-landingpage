@@ -32,6 +32,7 @@
         <NavLi target="_blank" href="https://tutorial.labkita.my.id"
             >Svelte Blog</NavLi
         >
+        <NavLi href="/contact">Contact</NavLi>
 
         <!-- contoh dropdown implementation -->
         <!-- <NavLi id="nav-menu1" class="cursor-pointer"
