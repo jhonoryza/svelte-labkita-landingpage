@@ -25,20 +25,20 @@ export const personalProjects = [
     repo: "https://github.com/jhonoryza/sveltekit-todoapps-api",
     image: "https://source.unsplash.com/random/320x160/?code",
     description: "Sveltekit, Tailwindcss, Nodejs 18, drizzle orm",
-    link: "#",
+    link: "https://github.com/jhonoryza/sveltekit-todoapps-api",
   },
   {
     title: "Laravel single docker image",
     repo: "https://github.com/jhonoryza/serversideup-laravel",
     image: "https://source.unsplash.com/random/320x160/?docker",
     description: "Docker, Bash",
-    link: "#",
+    link: "https://github.com/jhonoryza/serversideup-laravel",
   },
   {
     title: "Laravel filament shop",
     repo: "https://github.com/jhonoryza/laravel-shop-filament",
     image: "https://source.unsplash.com/random/320x160/?laravel",
     description: "Laravel 9, Filament",
-    link: "#",
+    link: "https://github.com/jhonoryza/laravel-shop-filament",
   },
 ];
