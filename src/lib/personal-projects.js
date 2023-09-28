@@ -1,5 +1,12 @@
 export const personalProjects = [
   {
+    title: "Laravel BLog",
+    repo: "https://github.com/jhonoryza/laravel-filament-blog",
+    image: "https://source.unsplash.com/random/320x160/?laravel",
+    description: "Laravel 10, PHP 8.2, Postgresql, Tailwindcss, Nodejs 18, Filament, Livewire",
+    link: "https://fajar.labkita.my.id",
+  },
+  {
     title: "Laravel BLog Markdown",
     repo: "https://github.com/jhonoryza/laravel-blog-markdown",
     image: "https://source.unsplash.com/random/320x160/?laravel",
