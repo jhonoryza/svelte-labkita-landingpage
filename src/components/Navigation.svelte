@@ -1,35 +1,25 @@
 <script>
-    import {
-        Navbar,
-        NavBrand,
-        NavLi,
-        NavUl,
-        NavHamburger,
-        // Dropdown,
-        // DropdownItem,
-        // DropdownDivider,
-        // Chevron,
-    } from "flowbite-svelte";
+    import {Navbar, NavBrand, NavHamburger, NavLi, NavUl,} from "flowbite-svelte";
 </script>
 
 <Navbar
-    navClass="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 border-b shadow-lg"
-    let:hidden
-    let:toggle
+        let:hidden
+        let:toggle
+        navClass="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 border-b shadow-lg"
 >
     <NavBrand href="/">
-        <span
-            class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
-            >Labkita</span
-        >
+        <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+            Labkita
+        </span>
     </NavBrand>
-    <NavHamburger on:click={toggle} />
+    <NavHamburger on:click={toggle}/>
     <NavUl {hidden}>
         <NavLi href="/">Home</NavLi>
-        <!-- <NavLi target="_blank" href="https://blog.labkita.my.id"
-            >Laravel Blog</NavLi
-        >
-        <NavLi target="_blank" href="https://tutorial.labkita.my.id"
+        <NavLi href="https://fajar.labkita.my.id" target="_blank">Blog
+        </NavLi>
+        <NavLi href="https://github.com/jhonoryza" target="_blank">Github
+        </NavLi>
+        <!-- <NavLi target="_blank" href="https://tutorial.labkita.my.id"
             >Svelte Blog</NavLi
         > -->
         <NavLi href="/contact">Contact</NavLi>
