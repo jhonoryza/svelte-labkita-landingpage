@@ -23,6 +23,7 @@
             >Svelte Blog</NavLi
         > -->
         <NavLi href="/contact">Contact</NavLi>
+        <NavLi href="https://www.linkedin.com/in/fajar-sidik-priatna-8b31a788/">Linkedin</NavLi>
 
         <!-- contoh dropdown implementation -->
         <!-- <NavLi id="nav-menu1" class="cursor-pointer"
