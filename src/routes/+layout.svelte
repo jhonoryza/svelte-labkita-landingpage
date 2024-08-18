@@ -5,16 +5,16 @@
   import Navigation from "../components/Navigation.svelte";
 </script>
 
-<html lang="en" class="font-quicksand">
-  <Header />
+<html class="font-quicksand" lang="en">
+<Header/>
 
-  <body class="flex flex-col min-h-screen">
-    <Navigation />
+<body class="flex flex-col min-h-screen">
+<Navigation/>
 
-    <main class="flex-grow container-mx-auto px-3">
-      <slot />
-    </main>
+<main class="flex-grow container mx-auto px-3 max-w-7xl">
+    <slot/>
+</main>
 
-    <Footer />
-  </body>
+<Footer/>
+</body>
 </html>

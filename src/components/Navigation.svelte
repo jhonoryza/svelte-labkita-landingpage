@@ -5,7 +5,7 @@
 <Navbar
         let:hidden
         let:toggle
-        navClass="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 border-b shadow-lg"
+        navClass="px-2 sm:px-4 py-2.5 w-full z-20 top-0 left-0 max-w-7xl mx-auto"
 >
     <NavBrand href="/">
         <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
@@ -14,15 +14,15 @@
     </NavBrand>
     <NavHamburger on:click={toggle}/>
     <NavUl {hidden}>
-        <NavLi href="/">Home</NavLi>
-        <NavLi href="https://fajar.labkita.my.id" target="_blank">Blog
-        </NavLi>
+        <!--        <NavLi href="/">Home</NavLi>-->
+        <!--        <NavLi href="https://fajar.labkita.my.id" target="_blank">Blog-->
+        <!--        </NavLi>-->
         <NavLi href="https://github.com/jhonoryza" target="_blank">Github
         </NavLi>
         <!-- <NavLi target="_blank" href="https://tutorial.labkita.my.id"
             >Svelte Blog</NavLi
         > -->
-        <NavLi href="/contact">Contact</NavLi>
+        <!--        <NavLi href="/contact">Contact</NavLi>-->
         <NavLi href="https://www.linkedin.com/in/fajar-sidik-priatna-8b31a788/">Linkedin</NavLi>
 
         <!-- contoh dropdown implementation -->
