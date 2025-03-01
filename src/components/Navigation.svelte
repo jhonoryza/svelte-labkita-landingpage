@@ -24,6 +24,9 @@
         > -->
         <!--        <NavLi href="/contact">Contact</NavLi>-->
         <NavLi href="https://www.linkedin.com/in/fajar-sidik-priatna-8b31a788/">Linkedin</NavLi>
+        <NavLi href="/alquran" target="_blank">
+            AlQuran Privacy & Policy
+        </NavLi>
 
         <!-- contoh dropdown implementation -->
         <!-- <NavLi id="nav-menu1" class="cursor-pointer"
